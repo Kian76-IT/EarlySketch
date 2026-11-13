@@ -41,10 +41,12 @@ desktop.ini
 
 # DATASET
 # Original Quick, Draw! dataset
-data/sampled/
+data/sampled/*
+!data/sampled/.gitkeep
 
 # Processed images (potentially very large)
-data/processed/
+data/processed/*
+!data/processed/.gitkeep
 
 # Keep split metadata CSV files in GitHub
 !data/splits/
