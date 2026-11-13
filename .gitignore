@@ -1,0 +1,74 @@
+
+
+# PYTHON CACHE
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# VIRTUAL ENVIRONMENTS
+.venv/
+venv/
+env/
+earlysketch_env/
+earlysketch/
+
+
+# JUPYTER
+.ipynb_checkpoints/
+
+
+# IDE AND EDITORS
+.vscode/
+.idea/
+
+
+# OPERATING SYSTEM
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ENVIRONMENT VARIABLES AND SECRETS
+.env
+.env.*
+!.env.example
+
+
+# LOGS
+*.log
+
+
+# DATASET
+# Original Quick, Draw! dataset
+data/sampled/
+
+# Processed images (potentially very large)
+data/processed/
+
+# Keep split metadata CSV files in GitHub
+!data/splits/
+data/splits/*
+!data/splits/*.csv
+
+
+# GENERATED REPORTS
+outputs/reports/
+
+# Keep visualization examples
+!outputs/visualizations/
+!outputs/visualizations/*.png
+!outputs/visualizations/*.jpg
+!outputs/visualizations/*.jpeg
+
+
+# MODEL CHECKPOINTS
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+
+# TEMPORARY FILES
+*.tmp
+*.temp
